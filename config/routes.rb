@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   # Example of regular route:
 
-  get 'current_time' => 'welcome#current_time'
+  get '/lorem/standard' => 'welcome#lorem'
 
   get '/:name' => 'welcome#name'
 
