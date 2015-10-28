@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   # Example of regular route:
 
-  get '/lorem/standard' => 'welcome#lorem'
+  get '/lorem/:standard' => 'welcome#lorem'
 
   get '/:name' => 'welcome#name'
 
@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
-
+  #I'm adding this line strictly for the change variable
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
